@@ -1,0 +1,15 @@
+.boton_personalizado_4 {
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 10px;
+    color:#333333;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:#3a9560;
+    border-color: #48c78e;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+    }
