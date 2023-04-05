@@ -16,7 +16,8 @@
     <meta name="generator" content="Nicepage 5.1.5, nicepage.com">
     <meta name="referrer" content="origin">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/jpg" href="https://i.ibb.co/BTczYFc/logo-Proyecto.png"/>
     
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -72,13 +73,29 @@
       </div></header>
     <section class="u-align-center u-clearfix u-section-1" id="sec-3a36">
       <div class="u-clearfix u-sheet u-sheet-1">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+        <!--
         <a href="tablainstrumentios.php" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-custom-color-6 u-radius-50 u-btn-1"> &nbsp; <span class="u-file-icon u-icon u-icon-1"><img src="formulario/images/318339.png" alt=""></span>&nbsp;Instrumentos registrados
-        </a>
+        </a>-->
+
         <br>
         <br>
         <h2 class="u-text u-text-default u-text-1"> Formulario de ingreso de nuevos usuarios </h2>
         <div class="u-expanded-width-sm u-expanded-width-xs u-form u-form-1">
           <form action="validacioningresoInstrumentos.php" method="post">
+          <div id="contenido">
+     <center>    
+    <p class="panel-heading">
+		<a href="tablainstrumentios.php" style="color:#005423" ;><i class="fa fa-mail-reply"></i> Instrumentos registrados</a><br>
+            </center></p>
+</div>
           <!--<input type="number" name="cedula" pattern="[A-Za-z0-9_-]{1,15}" required>-->
           <div class="u-form-group u-form-name u-label-none">
               <label for="name-3b9a" class="u-label">Name</label>
