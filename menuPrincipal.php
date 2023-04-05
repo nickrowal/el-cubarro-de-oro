@@ -53,6 +53,7 @@
   $apellido = $valores['apellido'];
 	$email = $valores['email'];
 	$foto = $valores['foto'];
+  //este es un mensaje nuevo
 	 ?>
     <script type="application/ld+json">{
 		"@type": "Organization",

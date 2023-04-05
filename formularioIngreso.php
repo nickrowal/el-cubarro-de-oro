@@ -16,7 +16,10 @@
     <meta name="generator" content="Nicepage 5.1.5, nicepage.com">
     <meta name="referrer" content="origin">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/jpg" href="https://i.ibb.co/BTczYFc/logo-Proyecto.png"/>
+   
+
     
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -72,17 +75,32 @@
       </div></header>
     <section class="u-align-center u-clearfix u-section-1" id="sec-3a36">
       <div class="u-clearfix u-sheet u-sheet-1">
+            <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+          <!--
         <a href="tablaDatos.php" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-custom-color-6 u-radius-50 u-btn-1"> &nbsp; <span class="u-file-icon u-icon u-icon-1"><img src="formulario/images/318339.png" alt=""></span>&nbsp;Usuarios registrados
-        </a>
+        </a>-->
         <br>
         <h2 class="u-text u-text-default u-text-1"> Formulario de ingreso de nuevos usuarios </h2>       
         <div class="u-expanded-width-sm u-expanded-width-xs u-form u-form-1">
           <form action="validacionIngresoPersona.php" method="post">
+               <div id="contenido">
+     <center>    
+    <p class="panel-heading">
+		<a href="tablaDatos.php" style="color:#005423" ;><i class="fa fa-mail-reply"></i> Usuarios registrados</a><br>
+            </center></p>
+</div>
             
           <!--<input type="number" name="cedula" pattern="[A-Za-z0-9_-]{1,15}" required>-->
           <div class="u-form-group u-label-none u-form-group-2">
               <label for="text-ddf4" class="u-label">Entrada</label>
-              <input type="text" placeholder="Identificacion" id="text-ddf4" name="Identificaciona" class="u-border-2 u-border-grey-30 u-input u-input-rectangle u-white"required>
+              <input type="text" placeholder="Identificacion" id="text-ddf4" name="Identificacion" class="u-border-2 u-border-grey-30 u-input u-input-rectangle u-white"required>
           </div>
           <div class="u-form-email u-form-group u-label-none">
               <label for="email-3b9a" class="u-label">Email</label>
@@ -109,7 +127,8 @@
               <label for="select-835a" class="u-label">Desplegable</label>
               <div class="u-form-select-wrapper">
                 <select id="g" name="grado" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
-                  <option value="-Seleccione su grado">-Seleccione su grado</option>
+                  <option value="-Seleccione su grado">-Seleccione su grado o funcion</option>
+                  <option value="Administrador">Administrador</option>
                   <option value="1. Primero">1. Primero</option>
                   <option value="2. Segundo">2. Segundo</option>
                   <option value="3. Tercero">3. Tercero</option>
@@ -130,13 +149,13 @@
               <label for="select-835f" class="u-label">Desplegable</label>
               <div class="u-form-select-wrapper">
                 <select id="Rol" name="id_cargo" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
-                  <option value=2>Estudiante</option>
-                  <option value=1>Profesor</option>
+                  <option value=2>Estudiante/usuario</option>
+                  <option value=1>Profesor/administrador</option>
                 </select>
                 <svg class="u-caret u-caret-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="fill:currentColor;" xml:space="preserve"><polygon class="st0" points="8,12 2,4 14,4 "></polygon></svg>
               </div>
             </div>
-             <input type="hidden" name="foto"> 
+             <input type="hidden" placeholder="NULL"value="NULL" name="foto"> 
           <input type="submit" value="Listo" name="btnIngresar"class="u-border-2 u-border-grey-75 u-btn u-btn-round u-btn-submit u-button-style u-custom-color-2 u-hover-custom-color-2 u-radius-50 u-btn-2">
           </form>
         </div>
