@@ -119,7 +119,7 @@ while ($filas=mysqli_fetch_assoc($result) )
 			{
 				echo "<tr>";
 					//echo " ID del instrumento "; echo $filas['id_instrumento']; echo "<br>";
-					echo " <td>  <B>Id instrumento:</B> "; echo $filas['id_instrumento']; echo "<br>";
+					echo " <td>  <B>Instrumento:</B> "; echo $filas['instrumentosNombre']; echo "<br>";
 					echo "  <B>Fecha de peticion</B> "; echo $filas['fechaPeticion']; echo "<br>";	
                     echo "<br>";	
                     echo "  <B>Proceso de la solicitud</B> "; echo $filas['proceso']; echo "<br>";	
